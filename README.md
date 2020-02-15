@@ -1,1 +1,1 @@
-# rsschool-cv
+https://n0target.github.io/rsschool-cv/cv
