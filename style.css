@@ -1,0 +1,77 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+section, h3 {
+  margin: 10px;
+  padding: 10px;
+}
+
+#contacts {
+  align-self: start;
+  justify-self: start;
+}
+
+.skill-bold {
+  font-weight: bold;
+}
+
+.skill-italic, .education  {
+  font-style: italic;
+}
+
+header, footer {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(100px, 200px) 400px 400px minmax(100px, 200px);
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+header ul li {
+  display: inline;
+  margin: 5px;
+  padding: 10px 0;
+}
+
+h3, section p {
+  text-align: center;
+}
+
+#person {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+#contacts {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+#summary {
+  grid-area: 3 / 2 / 4 / span 2;
+}
+
+#experience {
+  grid-area: 4 / 2 / 5 / span 2;
+}
+
+#code {
+  grid-area: 5 / 2 / 6 / span 2;
+}
+
+#skills {
+  grid-area: 6 / 2 / 7 / 3;
+}
+
+#education {
+  grid-area: 6 / 3 / 7 / 4;
+}
+
+#english {
+  grid-area: 8 / 2 / 9 / span 2;
+}
