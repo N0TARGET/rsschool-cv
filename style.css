@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h3,
+section {
+  margin: 10px;
+  padding: 10px;
+}
+
+body {
+  min-width: 800px;
+  max-width: 1020px;
+  margin: auto;
+  font-family: "Verdana", "Arial", sans-serif;
+  background-color: #edfaff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 400px 400px 100px;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+#contacts {
+  align-self: start;
+  justify-self: start;
+}
+
+#person {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+#contacts {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+#summary {
+  grid-area: 3 / 2 / 4 / span 2;
+}
+
+#experience {
+  grid-area: 4 / 2 / 5 / span 2;
+}
+
+#skills {
+  grid-area: 6 / 2 / 7 / 3;
+}
+
+#education {
+  grid-area: 6 / 3 / 7 / 4;
+}
+
+#english {
+  grid-area: 8 / 2 / 9 / span 2;
+}
+
+header,
+footer {
+  height: 50px;
+  padding-top: 25px;
+  text-align: center;
+  background-color: #d8ecff;
+}
+
+header ul li {
+  display: inline;
+  margin: 5px;
+  padding: 10px 0;
+}
+
+h3,
+section p {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+nav a:hover {
+  color: #ff0900;
+}
+
+nav a:visited {
+  color: darkred;
+}
